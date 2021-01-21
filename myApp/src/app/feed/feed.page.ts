@@ -11,7 +11,12 @@ export class FeedPage implements OnInit {
 
   constructor() { }
 
+  public somaDoisNumeros(): void{
+    alert(5 + 10);
+  }
+
   ngOnInit() {
+    this.somaDoisNumeros();
   }
 
 }
